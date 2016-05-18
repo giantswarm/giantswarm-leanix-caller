@@ -1,5 +1,5 @@
 FROM alpine
 
-COPY api-calls.sh /
+COPY leanix /usr/local/leanix
 
-ENTRYPOINT ["/api-calls.sh"]
+ENTRYPOINT ["/usr/local/leanix/api-calls.sh"]
